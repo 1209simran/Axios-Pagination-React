@@ -1,0 +1,65 @@
+.App {
+  width: 50%;
+  padding-left: 5%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+tr {
+  overflow-x: scroll;
+}
+th {
+  font-family: monospace;
+  font-size: 25px;
+}
+
+td {
+  padding: 15px 15px;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+thead {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Lato;
+  border: 1px solid transparent;
+
+  max-width: 100%;
+  font-weight: 900;
+  line-height: 24px;
+  mix-blend-mode: normal;
+
+  color: #000000;
+  background: rgba(255, 255, 255, 0.9);
+}
+thead tr th {
+  padding: 15px 15px;
+  border: 1px solid transparent;
+
+  text-align: left;
+}
+tbody {
+  max-width: 100%;
+}
+tbody tr:nth-child(odd) {
+  background: #f0f0f2;
+}
+tbody tr:hover {
+  background: #f0f0f2;
+}
+td {
+  padding: 15px 15px;
+}
